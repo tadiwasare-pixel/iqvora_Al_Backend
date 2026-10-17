@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: iqvora
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
